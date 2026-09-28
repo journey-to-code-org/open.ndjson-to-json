@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-ndjson-to-json",
+  "version": "1.0.0",
+  "description": "Converts newline-delimited JSON to arrays and back.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.ndjson-to-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.ndjson-to-json/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.ndjson-to-json#readme",
+  "keywords": [
+    "ndjson",
+    "json",
+    "logs",
+    "data"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
